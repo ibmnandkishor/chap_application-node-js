@@ -12,12 +12,18 @@
     <link rel="stylesheet" href="style.css" />
     <title>Chat app</title>
   </head>
-  <body style="background-color: rgb(225, 138, 225)">
+  <body style="background-color: rgb(168, 227, 168)">
     <h1 class="title">Chat App 💬</h1>
     <div class="main">
       <div class="name">
         <span><i class="far fa-user"></i></span>
-       <h5>ChatApp</h5>
+        <input
+          type="text"
+          id="name-input"
+          class="name-input"
+          value="ChatApp"
+          maxlength="20"
+        />
       </div>
 
       <ul class="message-container" id="message-container">
@@ -33,7 +39,7 @@
           name="message"
           id="message-input"
           class="message-input"
-          placeholder="typing..."
+          placeholder="Type your message..."
         />
         <div class="v-divider"></div>
         <button type="submit" class="send-button">

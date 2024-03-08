@@ -107,8 +107,6 @@ body {
   display: flex;
   justify-content: space-between;
   width: 400px;
-  background-color: rgb(193, 222, 149);
-
 }
 
 .message-input {
